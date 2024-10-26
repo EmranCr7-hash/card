@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        .container{
+            box-sizing: border-box;
+            display: flex;
+
+        }
+        .card{
+            width: 300px;
+            box-sizing: border-box;
+            margin: 10px;
+            box-shadow: 1px 2px 4px black;
+
+        }
+        .img-style{
+            width: 100%;
+           
+        }
+        .card-body{
+            background-color: cadetblue;
+
+        }
+        .card-title{
+            font-size: 2rem;
+            text-align: center;
+
+        }
+        .card-description{
+            padding: 5px;
+
+        }
+        .card:hover{
+            box-shadow: 5px 4px 3px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="img-style" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/C-programming-Cover.jpg?w=1200">
+    
+            <div class="card-body">
+                <div class="card-title">
+                    CSS
+    
+                </div>
+                <div class="card-description">
+                    Sit et lorem et invidunt est lorem. Dolore sit accusam lorem sit, amet diam tempor rebum clita et lorem labore, ipsum et eos stet sit sanctus dolor stet nonumy aliquyam. Sadipscing et sadipscing erat stet sea magna dolores eos dolor,.
+    
+                </div>
+    
+           
+           
+            </div>
+    
+        </div>
+
+        <div class="card">
+            <img class="img-style" src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2018/01/C-programming-Cover.jpg?w=1200">
+    
+            <div class="card-body">
+                <div class="card-title">
+                    CSS
+    
+                </div>
+                <div class="card-description">
+                    Sit et lorem et invidunt est lorem. Dolore sit accusam lorem sit, amet diam tempor rebum clita et lorem labore, ipsum et eos stet sit sanctus dolor stet nonumy aliquyam. Sadipscing et sadipscing erat stet sea magna dolores eos dolor,.
+    
+                </div>
+    
+           
+           
+            </div>
+    
+        </div>
+
+
+
+
+    </div>
+   
+    
+</body>
+</html>
